@@ -10,5 +10,7 @@ spec:
   containers:
     - name: webserver
       image: nginx
+      ports:
+       - port: 80
 
 ...
